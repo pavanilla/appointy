@@ -7,8 +7,8 @@ import (
 type Post struct {
 	UniqueID primitive.ObjectID `json:"_id unique" bson"_id"`
 	Author   primitive.ObjectID `json:"authorId" bson:"authorId"
-	Posted   primitive.DateTime `json:"posted" bson:"posted
+	Posted   primitive.DateTime `json:"posted" bson:"posted`
 	Title    string             `json:"title" bson:"tile"`
 	Body     string             `json:"body"  bson:"body"`
-	Thumbnail string             `json:"thumbnail" bson:"thumbnail,omitempty
+	Thumbnail string             `json:"thumbnail" bson:"thumbnail,omitempty`
 }

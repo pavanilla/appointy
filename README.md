@@ -1,7 +1,21 @@
 
 # Crud api with mongodb and Golang 
 
-## you need to import following packages
+# Installation Steps
+ 
+# Quick Run Project
+     go get github.com/pavanilla/appointy 
+     
+               or 
+   
+     git clone https://github.com/pavanilla/appointy.git
+     
+    cd appointy
+    
+    go build main.go
+
+
+## Need to import following packages
 
 	  1.go get go.mongodb.org/mongo-driver/mongo
 
@@ -12,6 +26,9 @@
       4. go get go.mongodb.org/mongo-driver/bson/primitive 
     
       5. go get github.com/gorilla/mux
+      
+
+      
       
 ## Route end points 
     
